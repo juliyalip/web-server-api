@@ -1,0 +1,17 @@
+<section class="section">
+  <div class="container">
+    <h1 class="section-heading">Популярные товары</h1>
+    <ul class="grid">
+      {{#each products}}
+        <li class="grid-item">
+       <a href="/products/{{id}}">
+          <img src="{{image}}" alt="{{name}}" />
+          <h2>{{name}}</h2>
+          <p>цена: {{price}} кредитов</p>
+          <button type="button" aria-label="в корзину">в корзину</button>
+       </a>
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+.item{
+    width: 450px;
+    background-color: yellow;
+    border: 1px solid black
+}
+
+.new{
+    color: red
+}
